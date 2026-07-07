@@ -30,8 +30,11 @@ void searchWikipedia(List<String>? arguments) {
     articleTitle = arguments.join(' ');
   }
 
-  print('Current article title: $articleTitle');
+  print('Looking up articles about "$articleTitle". Please wait.');
+  print('Here ya go!');
+  print('(Pretend this is an article about "$articleTitle")');
 }
+
 
 
 void printUsage() { // Add this new function
